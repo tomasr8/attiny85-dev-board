@@ -1,5 +1,14 @@
 # attiny85 development board
 
+<image src="assets/assembled/1.jpg">
+
+<p align="middle">
+    <image src="assets/assembled/2.jpg" width="49%">
+    <image src="assets/assembled/3.jpg" width="49%">
+    <image src="assets/assembled/4.jpg" width="49%">
+    <image src="assets/assembled/5.jpg" width="49%">
+</p>
+
 ## Features
 
 - All 6 GPIOs from the attiny available (marked 0-5 which corresponds to PB0-PB5 on the attiny)

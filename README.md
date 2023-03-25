@@ -45,9 +45,15 @@ I'm not great at soldering SMD components so I recommend starting with those. Th
 
 ## Programming
 
-The attiny chip needs to be flashed with a bootloader before you can use this with this board. There are many different ways you can do that - you could use an Arduino or an AVR programmer board. There are lots of tutorials available on the internet.
+The attiny chip needs to be flashed with a bootloader so that you can use it without a programmer (like an Arduino board).
+Here are two tutorials that I used to get mine working (you're gonna need an Arduino board to burn the bootloader):
 
-There is an onboard LED hardwired to PB1 so you can get your `blink` program running without any extra hardware ;)
+- https://github.com/Jasdoge/Attiny85-Bootloader-Tutorial
+- https://circuitdigest.com/microcontroller-projects/attiny85-ic-programming-through-usb-using-digispark-bootloader
+
+These tutorials use the micronucleus bootloader used by the Digispark attiny boards.
+
+There is an onboard LED hardwired to PB1 so you can get your `blink` sketch running without any extra hardware ;)
 
 ## Schematics
 
